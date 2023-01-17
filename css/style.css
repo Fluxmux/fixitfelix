@@ -1,0 +1,201 @@
+:root {
+    --primary: #3a5b61;
+    --secondary: #262c30;
+    --tertiary: #891b12 ;
+    --background: #262c30;
+}
+
+.navbar-collapse{
+    text-align:center;
+}
+
+.crowsec-logo-img {
+    width: 100%;
+    max-width: 60px;
+    height: auto;
+}
+
+#logo {
+    font-size: 38px;
+}
+.container {
+    margin-top: 100px;
+    max-width: 60%;
+}
+
+.col-md, .col-md-6 {
+   text-align: left;
+}
+
+.row {
+    margin-bottom: 20%;
+}
+
+.left-container {
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    margin:0;
+    padding: 15px;
+    border-left: 10px solid #66888e;
+}
+.right-container {
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 0 0 0;
+    padding-left: 10%;
+}
+
+.navbar-toggler {
+}
+
+#navbar {
+    color: var(--primary);
+    border-bottom: 2px solid var(--primary);
+    padding: 0px;
+}
+
+.nav-link {
+    padding: 10px ! important;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--background);
+    background: linear-gradient(55deg, #0f323740 0%, #0f323726 35%, rgb(216 222 223) 100%);
+    color: var(--secondary);
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--tertiary);
+}
+
+h2 a {
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: var(--primary);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--primary);
+}
+
+h2 {
+    font-size: 50px;
+    color: var(--primary);
+}
+
+h3 {
+    font-size: 18px;
+    color: var(--secondary);
+}
+
+h4 {
+    font-size: 18px;
+    color: var(--secondary);
+}
+
+p {
+    font-size: var(--bs-body-font-size);
+    color: var(--secondary);
+}
+
+.navbar-brand {
+    margin-right: 10px;
+}
+
+#container {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#email-address {
+    font-weight: bold;
+}
+
+.person-container {
+    vertical-align: top;
+    width: 45%;
+    margin: 0;
+    display: inline-block;
+}
+
+.rounded-img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin-bottom: 10%;
+}
+
+#submit {
+    color: white;
+    background-color: var(--primary);
+    border-color: var(--secondary);
+}
+
+.contact-form {
+    margin: 0;
+    text-align: left;
+}
+
+
+/* Mobile */
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 760px) {
+    .right-container {
+      margin-top: 30%; /* The width is 100%, when the viewport is 800px or smaller */
+      padding-left: 0;
+    }
+
+    .persons {
+        text-align: center;
+    }
+
+    .left-container {
+        border: 10px solid #66888e;
+    }
+    
+    #logo {
+        font-size: 38px;
+    }
+
+    .row>* {
+        padding-left: 0;
+    }
+}
+
+#no-js-warning-icon {
+    color: var(--primary);
+    margin-right: 5px;
+}
+
+#no-js-warning {
+    display:inline;
+    margin-left: 10px;
+    font-size: 12px;
+}
