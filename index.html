@@ -78,6 +78,8 @@
           <a href="https://fonds.brussels/"><img src="img/wffl.png" alt="Woningfonds van het Brussels Hoofdstedelijk Gewest / Fonds du Logement de la Région de Bruxelles-Capitale" /></a>
           <br /><br />
           <a href="https://www.one.be/"><img src="img/one.png" alt="l'Office de la Naissance et de l'Enfance" /></a>
+          <br /><br />
+          <a href="https://www.ceeyu.io/"><img src="img/ceeyu.png" alt="Ceeyu" /></a>
         </div>
       </div>
     </div>
@@ -125,9 +127,11 @@
             function sendMessage() {
               const company = document.getElementById('company').value;
               const message = document.getElementById('message').value.replaceAll("\n","%0D%0A");
-              window.location.href = `mailto:felix.lerner@fixitfelix.be?subject=${company}&body=${message}`;
+              window.location.href = `mailto:felix.lerner@fixitfelix.be?subject=Pentest - ${company}&body=${message}`;
             }
           </script>
+          <h3>get in touch</h3>
+          <br />
           <form onsubmit="sendMessage()">
             <div class="mb-3 contact-form">
               <label for="company" class="form-label">company</label>
