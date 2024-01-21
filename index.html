@@ -22,20 +22,16 @@
       <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
         <a id="logo" class="navbar-brand" href="">
           <span style="font-weight: 600; color: #0f3237;">Fix-it Felix</span>
+          <br />
+          <h3>Penetration testing scalable to your needs</h3>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" href="#services">services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#research">research</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#publications">publications</a>
+              <a class="nav-link" href="#ourcustomers">our customers</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#aboutus">about us</a>
@@ -70,51 +66,18 @@
           </div>
         </div>
       </div>
-      <label id="research"></label>
-      <div class="row">
-        <div class="col">
-          <div class="left-container">
-            <h2><a href="#research" style="color: #0f3237;">research</a></h2>
-            <h3>
-              we are focused on the research of novel exploitation techniques and vulnerabilities
-            </h3>
-            <p>we are a highly technical team of security experts, via research, we gain insight
-              and deeply understand vulnerabilities</p>
-          </div>
-        </div>
-
-        <div class="col-md">
-          <div class="right-container">
-            <h4>2023</h4>
-            <ul>
-              <li>nothing to see here yet</li>
-              <!--
-                <li><a href="research/uuid.pdf"> report title - date </a></li>
-                -->
-            </ul>
-          </div>
-        </div>
-      </div>
-    <label id="publications"></label>
+    <label id="ourcustomers"></label>
     <div class="row">
       <div class="col">
         <div class="left-container">
-          <h2><a href="#publications" style="color: #0f3237;">pentest reports</a></h2>
-          <h3>
-            these reports have been proudly published on explicit request of the
-            party that requested the pentest
-          </h3>
+          <h2><a href="#ourcustomers" style="color: #0f3237;">happy customers</a></h2>
         </div>
       </div>
       <div class="col-md">
         <div class="right-container">
-          <h4>2023</h4>
-          <ul>
-            <li>nothing to see here yet</li>
-            <!--
-                <li><a href="reports/uuid.pdf"> name of client - date </a></li>
-                -->
-          </ul>
+          <a href="https://fonds.brussels/"><img src="img/wffl.png" alt="Woningfonds van het Brussels Hoofdstedelijk Gewest / Fonds du Logement de la Région de Bruxelles-Capitale" /></a>
+          <br /><br />
+          <a href="https://www.one.be/"><img src="img/one.png" alt="l'Office de la Naissance et de l'Enfance" /></a>
         </div>
       </div>
     </div>
@@ -145,7 +108,7 @@
           <h2><a href="#contact" style="color: #0f3237;">let us hack you</a></h2>
           <h3>before others do</h3>
           <br /><br />
-          <p><a id="email-address" href="mailto:hello@fixitfelix.be">hello@fixitfelix.be</a>
+          <p><a id="email-address" href="mailto:felix.lerner@fixitfelix.be">felix.lerner@fixitfelix.be</a>
           <address>
             Oyenbrugstraat 45<br />
             1850 Grimbergen<br />
@@ -162,7 +125,7 @@
             function sendMessage() {
               const company = document.getElementById('company').value;
               const message = document.getElementById('message').value.replaceAll("\n","%0D%0A");
-              window.location.href = `mailto:hello@fixitfelix.be?subject=${company}&body=${message}`;
+              window.location.href = `mailto:felix.lerner@fixitfelix.be?subject=${company}&body=${message}`;
             }
           </script>
           <form onsubmit="sendMessage()">
